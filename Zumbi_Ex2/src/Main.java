@@ -25,5 +25,7 @@ public class Main {
         System.out.println("A vida total do " + zumbi1.nome + " após a tranferência é: " + zumbi1.mostraVida());
         System.out.println("A vida total do " + zumbi2.nome + " após a transferência é: " + zumbi2.mostraVida());
 
+        entrada.close();
+
     }
 }
